@@ -56,7 +56,7 @@ In our [paper]((https://ojs.aaai.org//index.php/ICWSM/article/view/7315)), we co
 
 ## Authors
 
-**Team Lead: [Alicia Nobles](https://github.com/[github handle])**
+**Team Lead: [Alicia Nobles](a-nobles.github.io)**
 
 Other Members: [Eric Leas](https://profiles.ucsd.edu/eric.leas), [Mark Dredze](http://www.cs.jhu.edu/~mdredze/), [John Ayers](https://www.johnwayers.com/)
 
