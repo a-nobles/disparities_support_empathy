@@ -35,16 +35,16 @@ Below is an overview of the steps of the analysis to support our [paper](https:/
 1. We collected all r/AskDocs posts, comments, and associatedmetadata (e.g., usernames, timestamps) from its inceptionin July 2013 through December 2018 from the [pushshift.io](https://ojs.aaai.org/index.php/ICWSM/article/view/7347)archives. 
 2. Comments authored by a physician were identified using the flair in the comment metadata.
 3. We developed a set of regular expressions to extract a self-reported demographics of a poster including binary sex, if the person identified as transgender, and race/ethnicity based on qualitative review of iterative samples of posts. We negated commonEnglish patterns that are not references to race (e.g.,Indian food). Performance of our rule-based approach was evaluated on a held out dataset. 
-	1. [demo\_rules.py](insert link)
+	1. [demo\_rules.py](https://github.com/a-nobles/disparities_support_empathy/blob/master/demo_rules.py)
 4. We applied topic modeling to discover the health topics that people were seeking information about using the Latent Dirichlet Allocation implemntation of MALLET provided via the wrapper in gensim.
-	1. 	 [topic\_model.py](insert link)
+	1. 	 [topic\_model.py](https://github.com/a-nobles/disparities_support_empathy/blob/master/topic_model.py)
 5. We used multivariable logistic regression to assess the relationshipbetween the explanatory variables of gender/sex andrace/ethnicity in the post and the probability of (1) receivingany response and (2) receiving a response from a physician.While holding the other explanatory variables at theirmeans, we estimated the probability of receiving a response(any response or a response from a physician) for each variableand corresponding 95% confidence intervals (CIs) byusing 1000 simulations.
-	1. [zelig\_modeling.R]()
+	1. [zelig\_modeling.R](https://github.com/a-nobles/disparities_support_empathy/blob/master/zelig_modeling.R)
 4. We measured the langauge style matching (LSM) of each conversation (i.e., the post and associated response(s)) as a proxy for empathy. We included all posts with at least one response that was not the original poster (follow-up comments from original posters were excluded). To calculate the conversational LSM for peer-to-peer interactions,we only included responses from non-physicians. To calculatethe conversational LSM for patient-provider interactions,we only included responses from physicians. Confidenceintervals were calculated from bootstrapped samples.
-	1. [empathy\_analysis\_non-physician.py]()
-	2. [empathy\_analysis\_physician.py]()
+	1. [empathy\_analysis\_non-physician.py](https://github.com/a-nobles/disparities_support_empathy/blob/master/empathy_analysis_non-physician.py)
+	2. [empathy\_analysis\_physician.py](https://github.com/a-nobles/disparities_support_empathy/blob/master/empathy_analysis_physician.py)
 3. Data visualization to support the paper
-	1. [topic\_viz.R]()
+	1. [topic\_viz.R](https://github.com/a-nobles/disparities_support_empathy/blob/master/topic_viz.R)
 
 
 ## Results
