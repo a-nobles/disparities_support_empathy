@@ -51,7 +51,7 @@ Below is an overview of the steps of the analysis to support our [paper](https:/
 Using self-reported demographics and discovered healthtopics on a social media platform with AtD services, weidentified that this online community was primarily maleand white, users most commonly sought help for low acuityconditions like dermatology, and females and transgenderpeople sought help on sensitive topics at a higherrate than their male counterparts. There were also smalldifferences in how empathetic a response was across demographics,where females received more empathetic responsesthan males and racial/ethnic minorities received lessempathetic responses than their white counterparts. In general,physicians responses were also less empathetic thannon-physicians across demographics and topics.
 
 ## Discussion
-In our [paper]((https://ojs.aaai.org//index.php/ICWSM/article/view/7315)), we contextualize our findings using previous research on online patient-provider interactions, bias and barriers in traditional healthcare settings, and peer-to-peer and patient-provider interactions in the health information exchange. We discuss implications for human-computer interaction to facilitate these organic interactions on a publicly available social media setting.
+In our [paper](https://ojs.aaai.org//index.php/ICWSM/article/view/7315), we contextualize our findings using previous research on online patient-provider interactions, bias and barriers in traditional healthcare settings, and peer-to-peer and patient-provider interactions in the health information exchange. We discuss implications for human-computer interaction to facilitate these organic interactions on a publicly available social media setting.
 
 
 ## Authors
